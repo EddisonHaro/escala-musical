@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="escala.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <nav class="NAV1">
+        <button class="nav-boton" onclick="accion()"> ESCALA MUSICAL</button>
+        <a href="#" class="nav-enlace desaparece" onmousedown="do1.play()">DO</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="re1.play()">RE</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="mi1.play()">MI</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="fa1.play()">FA</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="sol1.play()">SOL</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="la1.play()">LA</a>
+        <a href="#" class="nav-enlace desaparece" onmousedown="si1.play()">SI</a>
+
+    </nav>
+
+   <script>
+    var do1 = new Audio();
+    do1.src="Do.mp3";
+
+    var re1 = new Audio();
+    re1.src="re.mp3";
+
+    var mi1 = new Audio();
+    mi1.src="mi.mp3";
+
+    var fa1 = new Audio();
+    fa1.src="fa.mp3";
+
+    var sol1 = new Audio();
+    sol1.src="sol.mp3";
+
+    var la1 = new Audio();
+    la1.src="la.mp3";
+
+    var si1 = new Audio();
+    si1.src="si.mp3";
+    </script>
+
+   
+    
+    
+</body>
+</html>
